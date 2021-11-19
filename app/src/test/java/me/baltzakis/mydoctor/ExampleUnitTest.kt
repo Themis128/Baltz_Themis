@@ -1,4 +1,4 @@
-package me.ibrahimsn.smoothbottombar
+package me.baltzakis.mydoctor
 
 import org.junit.Test
 

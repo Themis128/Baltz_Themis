@@ -1,4 +1,4 @@
-package me.ibrahimsn.lib
+package me.baltzakis.lib
 
 import android.animation.ArgbEvaluator
 import android.animation.ValueAnimator
@@ -23,8 +23,7 @@ import androidx.core.content.res.ResourcesCompat
 import androidx.core.graphics.drawable.DrawableCompat
 import androidx.core.view.ViewCompat
 import androidx.navigation.NavController
-import me.ibrahimsn.lib.ext.d2p
-import kotlin.math.roundToInt
+import me.baltzakis.lib.ext.d2p
 
 class SmoothBottomBar @JvmOverloads constructor(
     context: Context,

@@ -1,4 +1,4 @@
-package me.ibrahimsn.lib
+package me.baltzakis.lib
 
 import android.content.Context
 import android.content.res.Resources

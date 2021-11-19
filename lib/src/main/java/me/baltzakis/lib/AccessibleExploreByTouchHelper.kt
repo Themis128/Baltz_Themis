@@ -1,4 +1,4 @@
-package me.ibrahimsn.lib
+package me.baltzakis.lib
 
 import android.graphics.Rect
 import android.os.Bundle

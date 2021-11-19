@@ -1,2 +1,2 @@
 include ':app', ':lib'
-rootProject.name='SmoothBottomBar'
+rootProject.name='My Doctor'

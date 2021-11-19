@@ -118,46 +118,31 @@ Coupled with the Navigation Component from the [Android Jetpack](https://develop
 ```
 
 Navigation Graph i.e res/navigation/ folder
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/nav_graph"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
     app:startDestination="@id/first_fragment">
 
-    <fragment
-        android:id="@+id/first_fragment"
-        android:name="me.ibrahimsn.smoothbottombar.FirstFragment"
-        android:label="Dashboard"
-        tools:layout="@layout/fragment_first" >
-        <action
-            android:id="@+id/action_firstFragment_to_secondFragment"
+    <fragment android:id="@+id/first_fragment" android:name="me.baltzakis.mydoctor.FirstFragment"
+        android:label="Dashboard" tools:layout="@layout/fragment_first">
+        <action android:id="@+id/action_firstFragment_to_secondFragment"
             app:destination="@id/second_fragment" />
     </fragment>
-    <fragment
-        android:id="@+id/second_fragment"
-        android:name="me.ibrahimsn.smoothbottombar.SecondFragment"
-        android:label="Leaderboard"
-        tools:layout="@layout/fragment_second" >
-        <action
-            android:id="@+id/action_secondFragment_to_thirdFragment"
+    <fragment android:id="@+id/second_fragment" android:name="me.baltzakis.mydoctor.SecondFragment"
+        android:label="Leaderboard" tools:layout="@layout/fragment_second">
+        <action android:id="@+id/action_secondFragment_to_thirdFragment"
             app:destination="@id/third_fragment" />
     </fragment>
-    <fragment
-        android:id="@+id/third_fragment"
-        android:name="me.ibrahimsn.smoothbottombar.ThirdFragment"
-        android:label="Store"
-        tools:layout="@layout/fragment_third" >
-        <action
-            android:id="@+id/action_thirdFragment_to_fourthFragment"
+    <fragment android:id="@+id/third_fragment" android:name="me.baltzakis.mydoctor.ThirdFragment"
+        android:label="Store" tools:layout="@layout/fragment_third">
+        <action android:id="@+id/action_thirdFragment_to_fourthFragment"
             app:destination="@id/fourth_fragment" />
     </fragment>
-    <fragment
-        android:id="@+id/fourth_fragment"
-        android:name="me.ibrahimsn.smoothbottombar.FourthFragment"
-        android:label="Profile"
-        tools:layout="@layout/fragment_fourth" />
+    <fragment android:id="@+id/fourth_fragment" android:name="me.baltzakis.mydoctor.FourthFragment"
+        android:label="Profile" tools:layout="@layout/fragment_fourth" />
 </navigation>
 ```
 
